@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class ConditionalsIfs {
     public static String getGrade(int grade) {
-        /**
-         * Notice that this does not use {} and is still readable!
-         */
+        /// Notice that this does not use {} and is still readable!
         if (grade < 59)         return "You got an F.";
         else if (grade < 69)    return "You got a D.";
         else if (grade < 79)    return "You got a C.";
